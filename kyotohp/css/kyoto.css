@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/* 大きな背景画像 */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+
+/* 見出し */
+.page-title {
+  font-size: 6rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/* ボタン */
+.button {
+  font-size: 1rem;
+  background: #000000;
+  color: #fff;
+  border-radius: 30px;
+  padding: 20px 20px;
+}
+
+.button:hover {
+  background: #777777;
+}
+
+
+/* HEADER
+------------------------------- */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 30px;
+}
+
+.main-nav a {
+  color: #fff;
+}
+
+.main-nav a:hover {
+  color: #fff;
+}
+
+/* HOME
+------------------------------- */
+#home {
+  background-image: url(../images2/image_6483441-24.JPG);
+  min-height: 100vh;
+}
+
+#home .page-title {
+  text-transform: none;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+
+#menu {
+  background-image: url(../images2/image_6483441-3.JPG);
+  min-height: 100vh;
+}
+
+.menu-content {
+  max-width: 560px;
+  margin-top: 10%;
+}
+
+.menu-content .page-title {
+  text-align: center;
+}
+
+.menu-content p {
+  font-size: 1.5rem;
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 5%;
+  margin-bottom: 5px;
+}
+
+/* CONTACT
+------------------------------- */
+#contact {
+  background-image: url(../images2/IMG_7628.JPG);
+  min-height: 100vh;
+}
+
+/* フォーム */
+form div {
+  margin-bottom: 14px;
+}
+
+label {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, .5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+
+/* フッター
+------------------------------- */
+footer {
+  background: #000000;
+  text-align: center;
+  padding: 26px 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
